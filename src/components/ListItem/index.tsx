@@ -22,7 +22,8 @@ export const ListItem = ({item, onCheck}: Props) => {
         checked={isChecked}
         onChange={toggleCheck}
       />
-      <label>{item.name} -- {item.done.toString()}</label>
+      <span>{item.id} -- </span>
+      <label>{item.task} -- {item.done.toString()}</label>
     </C.Container>
   )
 }

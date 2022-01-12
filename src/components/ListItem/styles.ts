@@ -20,6 +20,10 @@ export const Container = styled.div(({done}: ContainerProps)=>(
     font-size: 20px;
     text-decoration: ${done ? 'line-through':'initial'};
   }
+  span{
+    margin-left: 10px;
+    color: #fff;
+  }
   input{    
     width: 25px;
     height: 25px;    
